@@ -1,0 +1,188 @@
+#main {
+  height: 100vh;
+  background-color: white;
+}
+
+#navbar{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(33, 36, 41);
+  padding: 0.5em;
+}
+
+#logo-col{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#company-caption{
+  color: whitesmoke;
+  padding: 0.5em;
+  font-size: 1.25em;
+  font-family: monospace;
+  text-wrap-mode: nowrap;
+}
+
+#logo-img{
+  background-image: url('public/img/omega.png');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  width: 30px; 
+  height: 30px;
+}
+
+#nav-items-col{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-items-col ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+#nav-items-col ul li i{
+  margin-right: 0.5em;
+}
+
+#nav-items-col ul li{
+  color: whitesmoke;
+  padding: 0.5em;
+  margin-left: 1em;
+}
+
+#nav-items-col ul li:hover{
+  background-color: whitesmoke;
+  color: rgb(33, 36, 41);
+  cursor: pointer;
+  border-radius: 2em;
+}
+
+#logout-col{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#logout-img{
+  background-image: url('public/img/logout.png');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  width: 40px; 
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 2em;
+}
+
+#logout-img:hover,
+#logout-caption{
+  cursor: pointer;
+}
+
+#logout-caption{
+  color: white;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+
+#new-report-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin-top: 5em;
+}
+
+.main-btn{
+  text-decoration: none;
+  background-color: rgb(54,91,135);
+  color: whitesmoke;
+  font-size: 0.9em;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+.main-btn:hover{
+  color:whitesmoke;
+  background-color: rgb(33, 36, 41);
+}
+
+.main-btn span i{
+  margin-right: 0.5em;
+}
+
+#report-overview-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+#year-dropdown{
+  margin-top: 1.5em;
+  width: fit-content;
+}
+
+.table{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+
+.table th,
+  .table td {
+    border-right: 1px solid #ddd;
+    border-bottom: none;
+  }
+
+  .table th:last-child,
+  .table td:last-child {
+    border-right: none;
+  }
+
+.table thead{
+  background: rgb(54,91,135);
+  color: white;
+}
+
+.actions{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  border-radius: 3em;
+}
+
+.action-item i{
+  height: 8px;
+  width: 8px;
+  margin-bottom: 0.3em;
+}
+
+.action-item:hover{
+  background-color: rgb(168, 188, 197);
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+body {
+  /*background: radial-gradient(1224px at 10.6% 8.8%, rgb(255, 255, 255) 0%, rgb(153, 202, 251) 100.2%);*/
+  background: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.glass-box {
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  background-color: rgba(255, 255, 255, 0.392);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+
+}
+
+#log-in-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: fit-content;
+  padding: 2em;
+}
+
+#log-in-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-img-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-img{
+  background-image: url(public/img/omega.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+  width: 50px; 
+  height: 50px;
+}
+
+#login-text{
+  font-size: 2em;
+}
+
+.btn {
+  background-color: rgb(54,91,135);
+  color: white;
+  font-size: 0.9em;
+  padding: 1em;
+}
+
+.btn:hover{
+  color:white;
+  background-color: rgb(33, 36, 41);
+}
