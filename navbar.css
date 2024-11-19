@@ -1,0 +1,91 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(33, 36, 41);
+    padding: 0.5em;
+  }
+  
+  #logo-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #company-caption{
+    color: whitesmoke;
+    padding: 0.5em;
+    font-size: 1.25em;
+    font-family: monospace;
+    text-wrap-mode: nowrap;
+  }
+  
+  #logo-img{
+    background-image: url('public/img/omega.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 30px; 
+    height: 30px;
+  }
+  
+  #nav-items-col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #nav-items-col ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0;
+  }
+  
+  #nav-items-col ul li i{
+    margin-right: 0.5em;
+  }
+  
+  #nav-items-col ul li{
+    color: whitesmoke;
+    padding: 0.5em;
+    margin-left: 1em;
+  }
+  
+  #nav-items-col ul li:hover{
+    background-color: whitesmoke;
+    color: rgb(33, 36, 41);
+    cursor: pointer;
+    border-radius: 2em;
+  }
+  
+  #logout-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #logout-img{
+    background-image: url('public/img/logout.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 40px; 
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 2em;
+  }
+  
+  #logout-img:hover,
+  #logout-caption{
+    cursor: pointer;
+  }
+  
+  #logout-caption{
+    color: white;
+    font-size: 1em;
+    padding: 0.5em;
+  }
