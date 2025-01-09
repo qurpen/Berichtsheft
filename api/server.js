@@ -12,8 +12,8 @@ app.use(cors());
 const db = mysql.createConnection({
   host: 'localhost', // Change to your database host
   user: 'root',      // Change to your database username
-  password: 'password', // Change to your database password
-  database: 'mydatabase' // Change to your database name
+  password: 'andrei#Q21', // Change to your database password
+  database: 'Berichtsheft' // Change to your database name
 });
 
 // Test the database connection
