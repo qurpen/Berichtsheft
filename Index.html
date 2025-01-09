@@ -28,16 +28,16 @@
         <div class="input-group-md">
           <span class="input-group-text" id="basic-addon1">Username</span>
         </div>
-        <input type="text" class="form-control" placeholder="Azubi242162" aria-label="Username"
+        <input type="text" class="form-control" id="user-id" placeholder="Azubi242162" aria-label="Username"
           aria-describedby="basic-addon1">
       </div>
 
       <div class="input-group mb-3">
         <div class="input-group-md">
-          <span class="input-group-text" id="basic-addon1">Password</span>
+          <span class="input-group-text" id="basic-addon2">Password</span>
         </div>
-        <input type="password" class="form-control" placeholder="*******" aria-label="password"
-          aria-describedby="basic-addon1">
+        <input type="password" class="form-control" id="password" placeholder="*******" aria-label="password"
+          aria-describedby="basic-addon2">
       </div>
 
 
@@ -47,13 +47,15 @@
       </div>
       
       <div class="mt-5" id="login-btn">
-        <button type="button" class="btn" onclick="window.location='Ausbildungsnachweise.html'">Login</button>
+        <button type="button" class="btn" onclick="login()">Login</button>
       </div>
       <p class="mt-3">
         <a href="#" class="text-decoration-none text-muted">Forgot Password?</a>
       </p>
     </form>
   </div>
+
+  <script type="module" src="login.js"></script>
 
 </body>
 
