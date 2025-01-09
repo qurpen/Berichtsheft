@@ -1,203 +1,209 @@
-#main{
-    height: 100vh;
+#main {
+  height: 100vh;
 }
 
-#bericht-setup-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    margin-top: 5em;
-    margin-bottom: 5em;
+#bericht-setup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
-#setup-question{
-    font-size: 1.25em;
+#setup-question {
+  font-size: 1.25em;
 }
 
-.bericht-setup-div{
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border: 1px solid;
-    padding: 0.5em;
-    background-color: rgb(54,91,135);
-    color: white;
+.bericht-setup-div {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 1px solid;
+  padding: 0.5em;
+  background-color: rgb(54, 91, 135);
+  color: white;
 }
 
-#bericht-activities-container{
-    margin-top: 2em;
+#bericht-activities-container {
+  margin-top: 2em;
 }
 
-.main-btn{
-    text-decoration: none;
-    background-color: rgb(54,91,135);
-    color: whitesmoke;
-    font-size: 1em;
-    padding: 0.5em;
-    width: fit-content;
-    text-align: center;
-  }
+.main-btn {
+  text-decoration: none;
+  background-color: rgb(54, 91, 135);
+  color: whitesmoke;
+  font-size: 1em;
+  padding: 0.5em;
+  width: fit-content;
+  text-align: center;
+}
 
 .danger {
-    background-color: rgb(170, 9, 9);
+  background-color: rgb(170, 9, 9);
 }
 
-.main-btn:hover{
-    color: white;
-    cursor: pointer;
+.main-btn:hover {
+  color: white;
+  cursor: pointer;
 }
 
-.info-row{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.info-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-#bericht-info-col{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-    padding: 0;
+#bericht-info-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  padding: 0;
 }
 
-#main-btn-col{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-    padding: 0;
+#main-btn-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 0;
 }
 
-#bericht-data{
-    font-size: 1em;
-    padding: 0.5em;
-    font-family: sans-serif;
-    background-color: rgb(33, 36, 41);
-    color: white;
-    text-align: center;
-    width: fit-content;
-    vertical-align: middle;
+#bericht-data {
+  font-size: 1em;
+  padding: 0.5em;
+  font-family: sans-serif;
+  background-color: rgb(33, 36, 41);
+  color: white;
+  text-align: center;
+  width: fit-content;
+  vertical-align: middle;
 }
 
-#table-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#table-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.table-custom{
-    margin-top: 2em;
-    vertical-align: middle;
-    width: 100%;
+.table-custom {
+  margin-top: 2em;
+  vertical-align: middle;
+  width: 100%;
 }
 
-.table-custom thead, tbody{
-    border-bottom: 2px solid;
+.table-custom thead,
+tbody {
+  border-bottom: 2px solid;
 }
 
-.table-custom tbody tr{
-    border-bottom: 0.5px solid;
+.table-custom tbody tr {
+  border-bottom: 0.5px solid;
 }
 
-.table-custom tbody tr:last-child{
-    border-bottom: none;
+.table-custom tbody tr:last-child {
+  border-bottom: none;
 }
 
 
-.actions{
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: center;
-  }
-  
-  .action-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5em;
-    border-radius: 3em;
-  }
-  
-  .action-item i{
-    max-height: 8px;
-    max-width: 8px;
-    margin-bottom: 0.3em;
-  }
-
-  
-  .action-item:hover{
-    background-color: rgb(168, 188, 197);
-    cursor: pointer;
-  }
-
-#bericht-actions-container{
-    margin-top: 2em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
 }
 
-.actions-row{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.action-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  border-radius: 3em;
 }
 
-.actions-row .col{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
+.action-item i {
+  max-height: 8px;
+  max-width: 8px;
+  margin-bottom: 0.3em;
 }
 
-.action-col a{
-    margin-right: 1em;
+
+.action-item:hover {
+  background-color: rgb(168, 188, 197);
+  cursor: pointer;
 }
 
-.centered-text{
-    text-align: center;
+#bericht-actions-container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
 }
 
-.hidden{
-    display: none;
+.actions-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.input-group span{
-    width: 40%;
+.actions-row .col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
 }
 
-#description-input textarea{
-    min-height: 8em;
-    scroll-behavior: smooth;
+.action-col a {
+  margin-right: 1em;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.input-group span {
+  width: 40%;
+}
+
+#description-input textarea {
+  min-height: 8em;
+  scroll-behavior: smooth;
 }
 
 
 
 .modal-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-    backdrop-filter: blur(5px); /* Blurs the background */
-    z-index: 10; /* Ensures it appears behind the modal */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent overlay */
+  backdrop-filter: blur(5px);
+  /* Blurs the background */
+  z-index: 10;
+  /* Ensures it appears behind the modal */
 }
 
 /* Center the modal */
 .modal-dialog {
-    width: 100%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centers the modal */
-    z-index: 20; /* Ensures it appears above the backdrop */
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Centers the modal */
+  z-index: 20;
+  /* Ensures it appears above the backdrop */
 }

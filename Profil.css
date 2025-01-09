@@ -1,49 +1,49 @@
 #main {
-    height: 100vh;
-    background-color: white;
-  }
- 
-#profil-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
-    background-color: whitesmoke;
-    border-radius: 12px;
+  height: 100vh;
+  background-color: white;
 }
 
-#profil-primary-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#profil-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  background-color: whitesmoke;
+  border-radius: 12px;
 }
 
-#profil-img{
-    background-image: url(public/img/max_mustermann.png);
-    width: 200px;
-    height: 200px;
-    background-size: contain;
-    border-radius: 8em;
+#profil-primary-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#profil-name-caption{
-    font-size: 2em;
+#profil-img {
+  background-image: url(public/img/max_mustermann.png);
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  border-radius: 8em;
 }
 
-#profil-secondary-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#profil-name-caption {
+  font-size: 2em;
+}
+
+#profil-secondary-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-right {
-    text-align: end
+  text-align: end
 }
 
-.table{
-    width: 100%;
-    text-align: start;
+.table {
+  width: 100%;
+  text-align: start;
 }

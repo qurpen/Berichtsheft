@@ -18,7 +18,7 @@ body {
 
 }
 
-#log-in-wrapper{
+#log-in-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,43 +28,41 @@ body {
   padding: 2em;
 }
 
-#log-in-form{
+#log-in-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#logo-img-container{
+#logo-img-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#logo-img{
+#logo-img {
   background-image: url(public/img/omega.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center; 
-  width: 50px; 
+  background-position: center;
+  width: 50px;
   height: 50px;
 }
 
-#login-text{
+#login-text {
   font-size: 2em;
 }
 
 .btn {
-  background-color: rgb(54,91,135);
+  background-color: rgb(54, 91, 135);
   color: white;
   font-size: 0.9em;
   padding: 1em;
 }
 
-.btn:hover{
-  color:white;
+.btn:hover {
+  color: white;
   background-color: rgb(33, 36, 41);
 }
-
-

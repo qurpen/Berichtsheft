@@ -3,21 +3,21 @@
   background-color: white;
 }
 
-#navbar{
+#navbar {
   display: flex;
   flex-direction: row;
   background-color: rgb(33, 36, 41);
   padding: 0.5em;
 }
 
-#logo-col{
+#logo-col {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-#company-caption{
+#company-caption {
   color: whitesmoke;
   padding: 0.5em;
   font-size: 1.25em;
@@ -25,23 +25,23 @@
   text-wrap-mode: nowrap;
 }
 
-#logo-img{
+#logo-img {
   background-image: url('public/img/omega.png');
   background-size: contain;
-  background-repeat: no-repeat; 
-  background-position: center; 
-  width: 30px; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
   height: 30px;
 }
 
-#nav-items-col{
+#nav-items-col {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-#nav-items-col ul{
+#nav-items-col ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -49,54 +49,54 @@
   margin-bottom: 0;
 }
 
-#nav-items-col ul li i{
+#nav-items-col ul li i {
   margin-right: 0.5em;
 }
 
-#nav-items-col ul li{
+#nav-items-col ul li {
   color: whitesmoke;
   padding: 0.5em;
   margin-left: 1em;
 }
 
-#nav-items-col ul li:hover{
+#nav-items-col ul li:hover {
   background-color: whitesmoke;
   color: rgb(33, 36, 41);
   cursor: pointer;
   border-radius: 2em;
 }
 
-#logout-col{
+#logout-col {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-#logout-img{
+#logout-img {
   background-image: url('public/img/logout.png');
   background-size: contain;
-  background-repeat: no-repeat; 
-  background-position: center; 
-  width: 40px; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
   height: 40px;
   background-color: whitesmoke;
   border-radius: 2em;
 }
 
 #logout-img:hover,
-#logout-caption{
+#logout-caption {
   cursor: pointer;
 }
 
-#logout-caption{
+#logout-caption {
   color: white;
   font-size: 1em;
   padding: 0.5em;
 }
 
 
-#new-report-container{
+#new-report-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,37 +104,37 @@
   margin-top: 5em;
 }
 
-.main-btn{
+.main-btn {
   text-decoration: none;
-  background-color: rgb(54,91,135);
+  background-color: rgb(54, 91, 135);
   color: whitesmoke;
   font-size: 0.9em;
   padding: 1em;
   border-radius: 2em;
 }
 
-.main-btn:hover{
-  color:whitesmoke;
+.main-btn:hover {
+  color: whitesmoke;
   background-color: rgb(33, 36, 41);
 }
 
-.main-btn span i{
+.main-btn span i {
   margin-right: 0.5em;
 }
 
-#report-overview-container{
+#report-overview-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
 }
 
-#year-dropdown{
+#year-dropdown {
   margin-top: 1.5em;
   width: fit-content;
 }
 
-.table{
+.table {
   text-align: center;
   vertical-align: middle;
   font-size: 1em;
@@ -145,29 +145,29 @@
 
 
 .table th,
-  .table td {
-    border-right: 1px solid #ddd;
-    border-bottom: none;
-  }
+.table td {
+  border-right: 1px solid #ddd;
+  border-bottom: none;
+}
 
-  .table th:last-child,
-  .table td:last-child {
-    border-right: none;
-  }
+.table th:last-child,
+.table td:last-child {
+  border-right: none;
+}
 
-.table thead{
-  background: rgb(54,91,135);
+.table thead {
+  background: rgb(54, 91, 135);
   color: white;
 }
 
-.actions{
+.actions {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.action-item{
+.action-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,13 +176,13 @@
   border-radius: 3em;
 }
 
-.action-item i{
+.action-item i {
   height: 8px;
   width: 8px;
   margin-bottom: 0.3em;
 }
 
-.action-item:hover{
+.action-item:hover {
   background-color: rgb(168, 188, 197);
   cursor: pointer;
 }
